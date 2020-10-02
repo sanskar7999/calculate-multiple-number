@@ -1,0 +1,20 @@
+#include<stduo.h>
+#include<conio.h>
+int main()
+{
+clrscr();
+int addition, substraction, multiply,num1,num2;
+float division;
+printf("Enter your number");
+scanf("%d%d",&num1,&num2);
+addition=num1 +num2;
+printf("it is your answer=%d",addition);
+substraction=num1-num2;
+printf("your answer=%d", substraction);
+multiply=num1*num2;
+printf("your answer= %d",multiply);
+division=num1/num2;
+printf("your answer= %f", division");
+getch();
+return 0;
+}
