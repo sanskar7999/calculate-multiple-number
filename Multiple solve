@@ -1,4 +1,4 @@
-#include<stduo.h>
+#include<stduo.h> //importing libraries
 #include<conio.h>
 int main()
 {
@@ -8,13 +8,13 @@ float division;
 printf("Enter your number");
 scanf("%d%d",&num1,&num2);
 addition=num1 +num2;
-printf("it is your answer=%d",addition);
+printf("Addition=%d",addition);
 substraction=num1-num2;
-printf("your answer=%d", substraction);
+printf("Substraction=%d", substraction);
 multiply=num1*num2;
-printf("your answer= %d",multiply);
+printf("Multiplication= %d",multiply);
 division=num1/num2;
-printf("your answer= %f", division");
+printf("Division= %f", division");
 getch();
 return 0;
 }
