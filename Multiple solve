@@ -1,5 +1,5 @@
-#include<stduo.h> //importing libraries
-#include<conio.h>
+#include<stdio.h> //importing libraries
+#include<conio.h> // it is your library file
 int main()
 {
 clrscr();
